@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculatrice </title>
+</head>
+<body>
+   
+        <form action="" name="calculatrice">
+            <input type="text" name="afficher" class=" value">
+            <span onclick="document.calculatrice.afficher.value  ='' ">effacer</span>
+            <span onclick="document.calculatrice.afficher.value  +='+' ">+</span>
+            <span onclick="document.calculatrice.afficher.value  +='*' ">*</span>
+            <span onclick="document.calculatrice.afficher.value  +='5' ">5</span>
+            <span onclick="document.calculatrice.afficher.value  +='2' ">2</span>
+            <span onclick="document.calculatrice.afficher.value  =eval(calculatrice.afficher.value) ">egale</span>
+        </form>
+    <script src="index.js"></script>
+
+</body>
+</html>
